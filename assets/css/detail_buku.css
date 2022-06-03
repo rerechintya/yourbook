@@ -1,0 +1,20 @@
+.card-body>p{
+    margin-top: -10%;
+    margin-left: -3%;
+    font-family:'Libre Caslon Text';
+}
+.col-sm>p{
+    font-size: 14px;
+}
+.col-sm>h6{
+    font-size: 16px;
+}
+.yang_komen>p{
+    font-size: 14px;
+}
+.yang_komen>h6{
+    font-size: 16px;
+}
+.tombol{
+    border-radius: 100px;
+}

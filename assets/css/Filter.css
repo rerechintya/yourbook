@@ -1,0 +1,33 @@
+p.libre{
+    font-family:'Libre Caslon Text';
+    font-size:15px;
+}
+.line{
+    text-decoration: underline;
+    text-decoration-color: #0C99E9;
+    text-underline-offset: 10px;
+}
+/* .kanan{
+    margin-left: 7% ;
+} */
+.bintang{
+    margin-left: -3%;
+}
+.harga{
+    font-family:'Libre Caslon Text', serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#02659D;
+}
+.penulis{
+	font-family:'Libre Caslon Text', serif;
+	font-size:10px;
+	margin-top:-10px;
+}
+.judul{
+	font-family:'Libre Caslon Text', serif;
+	font-size:15px;
+	font-weight:bold;
+}
+
+

@@ -1,0 +1,41 @@
+.navbar-expand-sm{
+	background-color:0C99E9;
+	position:fixed;
+}
+.nav-link{
+	font-family:'Libre Caslon Text', serif;
+	margin-right:20px;
+}
+.nav-link:hover{
+	font-weight:bold;
+}
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+.tombol{
+	text-transform:none;
+	border-radius:50px;
+	background-color:#0077BA;
+	font-size:12px;
+	margin:auto;
+	width: 100px;
+}
+.form-search{
+	margin-right:20px;
+}
+thead{
+    font-family: 'Poppins' ,'sans-serif';
+    background-color:#0C99E9;
+    font-weight: bold;
+    font-size: 12px;
+}
+footer{
+	background-color:#0C99E9;
+	font-family:'Libre Caslon Text', serif;
+	font-size:12px;
+	margin-top:50px;
+}
+.mt-3 h2{
+	font-family: 'Poppins' ,'sans-serif';
+	font-weight: bold;
+}

@@ -1,0 +1,95 @@
+.navbar-expand-sm{
+	background-color:0C99E9;
+	position:fixed;
+}
+.nav-link{
+	font-family:'Libre Caslon Text', serif;
+	margin-right:20px;
+}
+.nav-link:hover{
+	font-weight:bold;
+}
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+.jumbotron{
+	height:500px;
+	background-color:#0C99E9;
+}
+.form-search{
+	margin-right:20px;
+}
+.slider1 p{
+	font-family:'Poppins', sans-serif;
+	width:400px;
+	font-size:12px;
+	margin-bottom: 120px;
+	margin-left: -70px;
+}
+.slider1 h1{
+	font-family:'Libre Caslon Text', serif;
+	font-size:60px;
+	margin-left: -600px;
+	padding: 30px;
+}
+.carousel-caption h1{
+	font-family:'Libre Caslon Text', serif;
+	font-size:60px;
+}
+.carousel-caption p{
+	font-family:'Poppins', sans-serif;
+	font-size:12px;
+}
+.float-right{
+	position:right;
+	width:400px;
+	margin-top:-280px;
+}
+h4{
+	font-family:'Libre Caslon Text', serif;
+	font-size:25px;
+	border-bottom:2px solid #0C99E9;
+	margin-top:70px;
+}
+.justify-content-center{
+	margin-top:60px;
+}
+.justify-content-center img{
+	border-radius:5px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.penulis{
+	font-family:'Libre Caslon Text', serif;
+	font-size:10px;
+	margin-top:-10px;
+}
+.judul{
+	font-family:'Libre Caslon Text', serif;
+	font-size:15px;
+	font-weight:bold;
+}
+.card{
+	margin-top:50px;
+}
+.harga{
+	font-family:'Libre Caslon Text', serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#02659D;
+}
+footer{
+	background-color:#0C99E9;
+	font-family:'Libre Caslon Text', serif;
+	font-size:12px;
+	margin-top:50px;
+}
+.mt-3 h2{
+	font-family: 'Poppins' ,'sans-serif';
+	font-weight: bold;
+}
+btn{
+	background-color:white;
+}

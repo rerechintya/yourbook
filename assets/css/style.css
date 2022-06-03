@@ -1,0 +1,41 @@
+body{
+    font-family: 'poppins';
+}
+footer{
+    text-align: center;
+    background-color: #0C99E9;
+    color: white;
+    padding: 10px;
+    font-family:'Libre Caslon Text', serif;
+    font-size:14px;
+
+}
+
+.margin-left{
+    margin-left: 20px !important;
+}
+.navbar-expand-sm{
+    background-color:0C99E9;
+    position:fixed;
+}
+.nav-link{
+    font-family:'Libre Caslon Text', serif;
+    margin-right:20px;
+}
+.nav-link:hover{
+    font-weight:bold;
+}
+
+.tombol{
+    color: white;
+    font-family:'Libre Caslon Text', serif;
+    background-color:#0077BA;
+    font-size:14px;
+    margin: auto;
+    text-align: center;
+}
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+}
+
+

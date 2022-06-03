@@ -1,0 +1,31 @@
+.row {
+  justify-content: center;
+  align-items: center;
+}
+#image2 {
+  display: block;
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.col-md-8 {
+  background-color: #0C99E9;
+  font-family: Poppins;
+  font-style: italic;
+  color: aliceblue;
+}
+.col-md-4 {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: Libre Caslon;
+}
+button {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 10%;
+  font-size: 30px;
+}
