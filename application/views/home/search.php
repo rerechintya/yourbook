@@ -124,13 +124,26 @@
                     <div class="row" style="margin-top: -50px;">
                         <?php no:1;foreach ($data_buku as $db): ?>
                             <div class="col-md-3">
-                                <a class="card rounded shadow border-0" style="width: 11rem;" href="<?php echo site_url() ?>explore/detail/<?= $db['id'];?>">
-                                        <img src="<?=base_url().'assets/img/'.$db['img'];?>"  class="img-fluid rounded">
+                                <a class="card rounded shadow border-0" style="width: 9rem; height: 13.5cm" href="<?php echo site_url() ?>explore/detail/<?= $db['id'];?>">
+                                        <img src="<?=base_url().'assets/img/'.$db['img'];?>"  class="img-fluid rounded m-1" style="height: 7cm">
                                         <div class="card-body">
-                                            <p class="card-text"><small class="text-muted"><?= $db['penulis']?></small></p>
-                                            <p class="card-text" style="color : black"><?= $db['nama_buku']?></p>
-                                            <br>
-                                            <p class="card-text harga"><?= $db['harga']?></p>
+                                            <p class="card-text"><small class="text-muted">
+                                                <?php
+                                                $kalimat=$db['penulis'];
+                                                $jumlahkarakter=18;
+                                                $cetak = substr($kalimat, 0, $jumlahkarakter);
+                                                echo $cetak;
+                                                ?>
+                                            </small></p>
+                                            <p class="card-text" style="color : black">
+                                                <?php
+                                                $kalimat=$db['nama_buku'];
+                                                $jumlahkarakter=22;
+                                                $cetak = substr($kalimat, 0, $jumlahkarakter);
+                                                echo $cetak;
+                                                ?>
+                                            </p>
+                                            <p class="card-text harga"><?= "Rp. ".$db['harga']?></p>
                                             <ul class="list-inline small bintang">
                                                 <li class="list-inline-item m-0"><i class="fa fa-star text-warning"></i></li>
                                                 <li class="list-inline-item m-0"><i class="fa fa-star text-warning"></i></li>
