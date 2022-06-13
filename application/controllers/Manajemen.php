@@ -22,6 +22,15 @@ class Manajemen extends CI_Controller
 		$this->load->view('templates/footer');
 	}
 
+	public function d_proses()
+	{
+        $data['judul'] = 'Dalam Proses';
+		$data['dalam_proses'] = $this->M_Manajemen->getBook_proses();
+		$this->load->view('templates/header', $data);
+		$this->load->view('manajemen/d_proses', $data);
+		$this->load->view('templates/footer');
+	}
+	
 	public function tambah()
 	{
 		$data['judul'] = 'Form Tambah Data Buku';

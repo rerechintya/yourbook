@@ -16,6 +16,13 @@ class M_Manajemen extends CI_model
 		return $this->db->get('data_buku')->row_array();
 	}
 
+	public function getBook_proses(){
+		$this->db->select('*');
+		$this->db->from('dalam_proses');
+		$query = $this->db->get();
+		return $query->result_array();
+	}
+
     public function tambahDataBuku($data)
 	{
         $insert['nama_buku'] = $data['nama_buku'];

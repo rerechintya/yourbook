@@ -33,7 +33,7 @@
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 						<div class="navbar-nav" style="margin:-18px; width: auto; font-weight: bold;">
 						<a class="nav-link active" style="border-bottom: 2px solid #0C99E9;" href="">Data Buku</a>
-						<a class="nav-link" href="<?php echo base_url() ?>Manajemen/proses">Dalam Proses</a>
+						<a class="nav-link" href="<?php echo base_url() ?>Manajemen/d_proses">Dalam Proses</a>
 						<a class="nav-link" href="#">Sedang di sewa</a>
 						</div>
 					</div>
@@ -86,7 +86,7 @@
 								<td><?= $db['desk'];?></td>
 								<td><?= $db['kategori'];?></td>
 								<td><?= $db['tag'];?></td>
-								<td><?= $db['harga'];?></td>
+								<td><?= 'Rp. '.$db['harga'];?></td>
 								<td><a href="<?=base_url().'assets/img/'.$db['img'];?>" target="_blank"><img src="<?=base_url().'assets/img/'.$db['img'];?>" width="100"></a></td>
 								<td class="text-center">
 									<a href="<?php echo base_url() ?>Manajemen/hapus/<?= $db['id'];?>"class="badge badge-danger float-center" style = "width : 80px; height : 30px; font-size : 12px; padding-top:8px" onclick="return confirm('Apakah anda yakin menghapus data ini?');">Hapus</a>
