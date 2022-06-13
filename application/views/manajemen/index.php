@@ -2,29 +2,8 @@
 
 	<head>
 		<title>Yourbook</title>
-		<link rel="icon" href="<?php echo base_url('assets/img/logo.png')?>">
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-		
 		<!---CSS---->	
 		<link rel="stylesheet" href="<?php echo base_url('assets/css/manajemen.css')?>">
-		
-		<!---Font---->
-		<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Poppins:wght@200&display=swap" rel="stylesheet">
-		
-		<!---Icon--->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
-		  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-		<!--JQuery-->
-		<link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-    	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	</head>
 	<body>
 		<section id="content">
