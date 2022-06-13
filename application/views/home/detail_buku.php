@@ -157,13 +157,13 @@
             <div class="modal-body">
               <div class="container-fluid">
                 <div class="row">
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label>Nama buku:</label>
                     <span aria-hidden="true" id="nama_buku" nama="nama_buku"><b><?= $db['nama_buku']?></b></span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="form-group col-md-6">
+                  <div class="form-group col-md-12">
                     <label>Nama Penulis:</label>
                     <span aria-hidden="true" id="penulis" nama="penulis"><b><?= $db['penulis']?></b></span>
                   </div>
