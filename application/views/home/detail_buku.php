@@ -159,13 +159,13 @@
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label>Nama buku:</label>
-                    <span aria-hidden="true" id="nama_buku" nama="nama_buku"><b><?= $data_buku['nama_buku']?></b></span>
+                    <span aria-hidden="true" id="nama_buku" nama="nama_buku"><b><?= $db['nama_buku']?></b></span>
                   </div>
                 </div>
                 <div class="row">
                   <div class="form-group col-md-6">
                     <label>Nama Penulis:</label>
-                    <span aria-hidden="true" id="penulis" nama="penulis"><b><?= $data_buku['penulis']?></b></span>
+                    <span aria-hidden="true" id="penulis" nama="penulis"><b><?= $db['penulis']?></b></span>
                   </div>
                 </div>
                 <div class="row">
@@ -277,9 +277,9 @@
                           <h5>Total Pembayaran</h5>
                         </div>
                         <div class="form-group col-md-6">
-                          <p id="harga_buku"><?= 'Rp. '. $data_buku['harga']?></p>
+                          <p id="harga_buku"><?= 'Rp. '. $db['harga']?></p>
                           <p>Rp. 10.000</p>
-                          <h5 name="total"><?= 'Rp. '.(int) $data_buku['harga'] + 10.000.'.000'?></h5>
+                          <h5 name="total"><?= 'Rp. '.(int) $db['harga'] + 10.000.'.000'?></h5>
                         </div>
                       </div>
                     </div>
